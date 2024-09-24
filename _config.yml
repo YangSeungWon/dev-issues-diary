@@ -1,5 +1,86 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
 title: Dev Issues Diary
 description: 개발 중 마주치는 버그와 해결 방법을 기록하는 블로그
-baseurl: ""
-url: "https://blog.ysw.kr"
-theme: minima
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://blog.ysw.kr" # the base hostname & protocol for your site
+
+# Build settings
+theme: minimal-mistakes-jekyll
+
+# Minimal Mistakes specific configuration
+minimal_mistakes_skin: "dark"
+
+markdown: kramdown
+highlighter: rouge
+
+author_profile: true
+
+author:
+  name: "Seungwon Yang"
+  avatar: "/assets/images/oink.jpg" # Path to your avatar image
+  bio: "M.S. Student"
+  email: "sw.yang43@gmail.com"
+  links:
+    - label: "GitHub"
+      url: "https://github.com/YangSeungWon"
+      icon: "fab fa-github"
+    - label: "Twitter"
+      url: "https://twitter.com/whysw_p"
+      icon: "fab fa-twitter"
+    - label: "LinkedIn"
+      url: "https://www.linkedin.com/in/seungwon-yang/"
+      icon: "fab fa-linkedin"
+    - label: "About me"
+      url: "https://ysw.kr"
+      icon: "fas fa-user"
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# Archives
+jekyll-archives:
+  enabled:
+    - tags
+  layouts:
+    tag: archive-taxonomy
+  permalinks:
+    tag: /tags/:name/
+
+include:
+  - _pages
