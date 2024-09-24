@@ -321,6 +321,7 @@ DEPENDENCIES
   http_parser.rb (~> 0.6.0)
   jekyll-archives
   jekyll-feed (~> 0.12)
+  jekyll-sitemap
   logger
   minimal-mistakes-jekyll (~> 4.22.0)
   ostruct
