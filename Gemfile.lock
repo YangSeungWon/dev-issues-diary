@@ -323,7 +323,7 @@ DEPENDENCIES
   jekyll-feed (~> 0.12)
   jekyll-sitemap
   logger
-  minimal-mistakes-jekyll (~> 4.22.0)
+  minimal-mistakes-jekyll
   ostruct
   tzinfo (~> 1.2)
   tzinfo-data
