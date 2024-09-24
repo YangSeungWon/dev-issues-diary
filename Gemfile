@@ -41,6 +41,7 @@ gem "ostruct"
 gem "base64"
 gem "bigdecimal"
 gem "webrick"
+gem 'faraday-retry', '~> 2.2'
 
 # Add minimal-mistakes-jekyll theme
 gem "minimal-mistakes-jekyll"
