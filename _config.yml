@@ -27,7 +27,7 @@ url: "https://blog.ysw.kr" # the base hostname & protocol for your site
 theme: minimal-mistakes-jekyll
 
 # Minimal Mistakes specific configuration
-minimal_mistakes_skin: "dark"
+minimal_mistakes_skin: "dirt"
 
 markdown: kramdown
 highlighter: rouge

@@ -1,6 +1,5 @@
 ---
-layout: single
-author_profile: true
+layout: post
 title:  "메타 퀘스트 기기가 ADB에서 unauthorized 상태일 때"
 date:   2024-09-25 01:30:00 +0900
 tags: meta-quest adb
