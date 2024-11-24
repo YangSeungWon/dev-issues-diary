@@ -69,7 +69,7 @@ forge script script-name.s.sol --broadcast --legacy
 
 
 ## Foundry용 함수
-대부분이 기존 js 문법과 동일하게 작성되지만, 테스트 및 스크립팅을 위해 몇 가지 사용할 새 함수들이 있다.
+대부분이 기존 solidity에서 쓰는 함수와 동일하게 작성되지만, 테스트 및 스크립팅을 위해 몇 가지 사용할 새 함수들이 있다.
 
 ### vm.addr
 [공식 문서](https://book.getfoundry.sh/cheatcodes/addr)
