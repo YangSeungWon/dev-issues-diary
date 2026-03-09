@@ -3,6 +3,7 @@ layout: post
 title:  "Sorry, your sign-in attempt doesn't match the Egress IPs of the profile that this machine is assigned to. Please contact your IT administrator"
 date:   2024-12-03 15:30:00 +0900
 tags: adobe
+description: "Adobe Creative Cloud에서 Egress IP가 일치하지 않는다는 오류로 로그인이 안 될 때 해결 방법"
 ---
 
 Sorry, your sign-in attempt doesn't match the Egress IPs of the profile that this machine is assigned to. Please contact your IT administrator 문제 해결.

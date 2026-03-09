@@ -3,6 +3,7 @@ layout: post
 title:  "메타 퀘스트 기기가 ADB에서 unauthorized 상태일 때"
 date:   2024-09-25 01:30:00 +0900
 tags: meta-quest adb
+description: "메타 퀘스트 기기가 ADB에서 unauthorized 상태로 표시될 때의 원인과 해결 방법"
 ---
 
 메타 퀘스트 기기를 컴퓨터와 USB 케이블로 연결하였을 때, ADB 또는 Meta Quest Developer Hub에서 메타 퀘스트 기기가 인식되지만 'unauthorized' 상태로 표시될 때의 해결 방법입니다.

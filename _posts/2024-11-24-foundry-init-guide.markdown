@@ -3,6 +3,7 @@ layout: post
 title:  "Foundry forge로 이더리움 스마트 컨트랙트 분석하기"
 date:   2024-11-24 01:30:00 +0900
 tags: ethereum smart-contract foundry
+description: "Foundry forge를 이용한 이더리움 스마트 컨트랙트 테스트 및 스크립트 실행 가이드"
 ---
 
 Foundry forge를 이용해 이더리움 스마트 컨트랙트를 테스트하고 스크립트를 돌려봅시다.

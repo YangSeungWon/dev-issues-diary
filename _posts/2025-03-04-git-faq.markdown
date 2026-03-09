@@ -3,6 +3,7 @@ layout: post
 title: "Git FAQ"
 date: 2025-03-04 18:30:00 +0900
 tags: git
+description: "Git과 GitHub의 차이, 로컬/원격 저장소, 커밋, 푸시, 브랜치, 머지 등 Git 기본 개념과 자주 마주치는 상황을 정리한 가이드"
 ---
 
 Git에 대한 기본 개념과 자주 나오는 상황 정리
